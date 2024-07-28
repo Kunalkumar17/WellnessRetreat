@@ -1,6 +1,6 @@
 const RetreatCard = ({ image, title , description ,price ,date , location}) => {
   return (
-    <div className='flex  sm:w-[350px] sm:min-w-[350px] rounded-[20px] shadow-3xl px-4 py-4 gap-4 bg-green-50'>
+    <div className='flex  sm:w-[500px] sm:min-w-[500px] rounded-[20px] shadow-3xl ease-in px-4 py-4 gap-4 cursor-pointer hover:bg-green-50'>
         <div className="flex w-full h-full">
           <img src={image} alt={"image"} width={200} height={100}  className=" rounded-lg"/>
         </div>
