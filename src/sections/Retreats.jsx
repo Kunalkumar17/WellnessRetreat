@@ -128,7 +128,7 @@ function Retreats() {
       </div>
       </div>
       {error && <div className='font-bold'>No Retreats Found</div>}
-        <section className='flex flex-wrap gap-20'>
+        <section className='flex flex-wrap gap-8'>
           {paginatedData.map((item) => (
             <RetreatCard key={item.id} {...item}/>
           ))}
