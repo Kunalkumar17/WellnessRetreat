@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='flex xl:flex-row flex-col gap-10 border-black border-2 rounded-3xl max-lg:items-center bg-green-100'
+      className='flex xl:flex-row xl:justify-center flex-col gap-10 border-black border-2 rounded-3xl max-lg:items-center bg-green-100'
     >
       <div className='px-10 mt-16 lg:mb-16 max-lg:justify-center'>
         <img
