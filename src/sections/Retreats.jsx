@@ -97,7 +97,7 @@ function Retreats() {
           placeholder="Search by title..."
           value={searchTerm}
           onChange={handleSearch}
-          className='p-3 my-2 border-black border-2 rounded-3xl'
+          className='p-3 my-2 border-black border-2 rounded-3xl max-sm:w-1/2 max-sm:h-1/2'
         />
           <select
             value={filterType}
