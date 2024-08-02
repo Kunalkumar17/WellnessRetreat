@@ -110,7 +110,7 @@ function Retreats() {
             <option value="Wellness">Wellness</option>
           </select>
         </div>
-        <div className='flex gap-2 my-3'>
+        <div className='flex gap-2 my-3 max-lg:justify-between'>
         <button
           onClick={handlePreviousPage}
           disabled={currentPage === 1}
